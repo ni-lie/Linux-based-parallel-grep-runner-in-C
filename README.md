@@ -3,7 +3,7 @@
 A multithreaded parallel grep runner program written in C that divides the workload of searching through all file contents in a directory
 tree among parallel threads  
 
-<h4> Sample Run </h4>
+# Sample Run 
 
 <b> Consider the list of directories and files in the image below </b>  
 
