@@ -5,8 +5,13 @@ tree among parallel threads
 
 <h4> Sample Run </h4>
 
-<b> String to be searched for: cs140 </b>
 <b> Consider the list of directories and files in the image below </b>  
+
+<p align="center">
+    <img src="screenshots/directory.jpeg" alt="directory" />
+</p> 
+
+We have the following: 
 <ul>
     <li> walkthrough</li>
     <li> dir1</li>
@@ -16,12 +21,31 @@ tree among parallel threads
     <li> dir5 </li>
     <li> 5 absent text files with contents that do not contain the string 'cs140' </li>
     <li> 1 present text file with content that do contain the string 'cs140' </li>
-</ul> 
+</ul>  
+<b> String to be searched for: cs140 </b>  
 
-
+Shown in the image below is the content of present.txt  
 <p align="center">
-    <img src="screenshots/directory.jpeg" alt="directory" />
-</p> 
+    <img src="screenshots/present.png" alt="present">
+</p>
+  
+Running the following in the command line:  
+<b> ./multithreaded 3 /media/sf_cs140/cs140221project2-w-coronel/walkthrough/ cs140 </b>  
+<b> Command line arguments: </b>  
+<ul>
+    <li> argv[0]:./multithreaded </li>
+    <li> argv[1]: 3 (number of workers)</li>
+    <li> argv[2]: /media/sf_cs140/cs140221project2-w-coronel/walkthrough/ (path)</li>
+    <li> argv[3]: cs140 (string to be searched for)</li>
+</ul>
+  
+We get the following output:  
+<p align="center">
+    <img src="screenshots/result.png" alt="present">
+</p>  
+
+**As we can see from the screenshot above, the program outputted one PRESENT, five ABSENTs, and six DIRs. **
+
 
 
 
