@@ -33,7 +33,7 @@ Running the following in the command line:
 <b> ./multithreaded 3 /media/sf_cs140/cs140221project2-w-coronel/walkthrough/ cs140 </b>  
 <b> Command line arguments: </b>  
 <ul>
-    <li> argv[0]:./multithreaded </li>
+    <li> argv[0]: ./multithreaded </li>
     <li> argv[1]: 3 (number of workers)</li>
     <li> argv[2]: /media/sf_cs140/cs140221project2-w-coronel/walkthrough/ (path)</li>
     <li> argv[3]: cs140 (string to be searched for)</li>
@@ -44,7 +44,7 @@ We get the following output:
     <img src="screenshots/result.png" alt="present">
 </p>  
 
-**As we can see from the screenshot above, the program outputted one PRESENT, five ABSENTs, and six DIRs. **
+**As we can see from the screenshot above, the program outputted one PRESENT, five ABSENTs, and six DIRs.**
 
 
 
