@@ -47,10 +47,3 @@ We get the following output:
 **As we can see from the screenshot above, the program outputted one PRESENT, five ABSENTs, and six DIRs.**  
 **Moreover, we can see the number of workers/threads that did the process of searching**  
 
-- List 1
-- List 2
-  - List 3
-
-
-
-
