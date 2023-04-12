@@ -4,5 +4,5 @@ A multithreaded parallel grep runner program written in C that divides the workl
 tree among parallel threads
 
 <div style="text-align:center">
-    ![Directories](screenshots/directory.jpeg)
+    <img src="screenshots/directory.jpeg" alt="directory" />
 <div style="text-align:center">
