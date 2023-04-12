@@ -3,4 +3,4 @@
 A multithreaded parallel grep runner program written in C that divides the workload of searching through all file contents in a directory
 tree among parallel threads
 
-<img src="https://drive.google.com/file/d/12y-GXQ4hUNaAo3lRg4nc7gxPkmUSQdRo/view?usp=sharing" alt="alt text" width="300"/>
+<img src="C:\Users\Willie Coronel\OneDrive\Documents\College Materials\Resume\For portfolio purposes\CS 140\Linux-based-parallel-grep-runner-in-C\directory.jpeg" alt="directories" width="300"/>
